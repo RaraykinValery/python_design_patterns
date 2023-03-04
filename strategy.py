@@ -66,6 +66,7 @@ class Squeak(QuackBehavior):
         print("Squeak")
 
 
-mallard = MallardDuck()
-mallard.perform_quack()
-mallard.perform_fly()
+if __name__ == "__main__":
+    mallard = MallardDuck()
+    mallard.perform_quack()
+    mallard.perform_fly()
